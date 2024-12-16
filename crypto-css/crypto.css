@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+:root{
+    --primary-gradiant: linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52);
+}
+
 body {
     background-color: #141414;
 }
@@ -34,7 +38,7 @@ body {
     position: fixed;
     top: 0px;
     z-index: 1000;
-    background-color: hsla(0, 0%, 7%, .95);
+    background-color: #000;
 }
 
 .time .btn-primary {
@@ -204,10 +208,31 @@ body {
 
 }
 
-.item .card p {
-    font-size: 18px;
+.item .card p.trade-p {
+    font-size: 16px;
     color: #ffffff;
     margin-right: 8px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.explore-p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 8px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 100%;
 }
 
 .owl-dots {
@@ -252,8 +277,13 @@ body {
     font-size: 14px;
     background-color: #f5f5f5;
     padding: 12px;
-    width: 240px;
+    width: fit-content;
     color: #141414;
+}
+
+.btn-card:focus {
+    border: 0px !important;
+    box-shadow: none !important;
 }
 
 .btn-card:hover {
@@ -276,11 +306,12 @@ body {
     transform: translate(-50%);
     border: 2px solid #eceff3;
     border-radius: 20px;
-    width: 520px;
+    max-width: 750px;
+    width: 100%;
 }
 
 .offer {
-    width: 70px;
+    width: 88px;
     height: 120px;
     float: right;
     position: absolute;
@@ -305,6 +336,7 @@ body {
     color: rgb(30, 36, 48);
     font-family: Inter;
     padding-top: 20px;
+    text-align: justify;
 }
 
 .offer-sub-button {
@@ -348,7 +380,8 @@ body {
 }
 
 .accordions-list {
-    width: 750px;
+    max-width: 750px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -405,7 +438,7 @@ body {
 }
 
 .community p {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -451,7 +484,7 @@ body {
 }
 
 .accordion-body {
-    background-color: #ebf1ff;
+    background-color: #7878781f !important;
     color: #ffffff;
     font-size: 14px;
 }
@@ -514,6 +547,14 @@ body {
     color: rgb(102, 112, 133);
     padding: 0px 10px;
 
+}
+
+.accordion-button:focus,
+button:focus {
+    z-index: 3;
+    border-color: unset !important;
+    outline: 0;
+    box-shadow: unset !important;
 }
 
 .offer-text-1 {
@@ -716,7 +757,7 @@ body {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #7878781f !important;
+    background-color: #fff !important;
 }
 
 .accordion-button::after {
@@ -781,9 +822,15 @@ body {
 
 .background-layer {
     background-image: linear-gradient(1turn, #121212, transparent);
+    transition: all 2s ease-in-out;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .2s;
+    transform-style: preserve-3d;
 }
 
-   
+
 
 
 .about-card {
@@ -795,8 +842,7 @@ body {
 
     &:hover {
         .background-layer {
-            background-image: none !important;
-            transition: all ease-in-out 2s;
+            transform: rotateX(180deg);
         }
     }
 }
@@ -850,6 +896,37 @@ body {
     overflow-x: hidden;
 }
 
+.banner-text .banner-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center !important;
+}
+
+.banner-text .banner-content h1 {
+    background: #3687ff;
+    background: linear-gradient(90deg, #3687ff 0%, #7928d2 45%, #2b0c52);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: 600 !important;
+}
+
+.banner-text .banner-content span {
+    font-size: 18px;
+}
+
+.banner-text .banner-content .btn-primary{
+    padding: 8px 24px;
+    border-radius: 26px;
+    width: fit-content !important;
+}
+
 .main-container-wrapper {
     background-image: url(../images/background1.png);
     background-position: center;
@@ -857,38 +934,14 @@ body {
     background-repeat: no-repeat;
 }
 
-.bg-cover-main-div {
-
-    width: 100vw !important;
-    height: calc(130vh - 107px) !important;
-    margin-top: 107px !important;
-    padding-top: 350px;
-
-    .bg-cover-wrapper {
-        background-image: url(../images/bg-cover-div.jpeg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
-    }
-}
-
-.bnr-heading {
-    & h1 {
-        font-weight: 900 !important;
-        background: rgb(54, 135, 255);
-        background: linear-gradient(90deg, rgba(54, 135, 255, 1) 20%, rgba(135, 34, 154, 1) 80%);
-        background-size: 200%;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 63px;
-    }
-    & span{
-        color: rgb(177, 177, 177);
-        font-size: 20px !important;
-    }
+.banner-image-bg {
+    background-image: url(../images/bg-cover-div.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 100px;
 }
 
 .owl-item {
@@ -896,10 +949,6 @@ body {
         & h3 {
             text-align: left;
             padding-left: 15px;
-        }
-
-        & p {
-            text-align: left;
         }
 
         .one-heading:before {
@@ -941,6 +990,7 @@ body {
         margin: 0 auto;
     }
 }
+
 .card .right .one-heading:before {
     content: "";
     height: 32px;
@@ -951,24 +1001,23 @@ body {
     background-color: white;
 
 }
-.card{
-    .right{
-        .one-heading{
+
+.card {
+    .right {
+        .one-heading {
             padding-left: 20px;
         }
+
         .its-one:before {
             background-color: rgb(72, 255, 0);
         }
-        
+
         .its-two:before {
             background-color: rgb(1, 233, 250);
         }
-        
+
         .its-three:before {
             background-color: rgb(251, 255, 1);
-        }
-        & p{
-            padding-top: 10px;
         }
     }
 }
@@ -978,12 +1027,16 @@ body {
 display: flex;
 } */
 
-.bnr-heading{
+.bnr-heading {
     position: absolute !important;
     z-index: 2 !important;
     top: 150px !important;
 }
 
-.its-right-side{
+.its-right-side {
     display: flex;
+}
+
+.btn {
+    border: 0px !important;
 }
