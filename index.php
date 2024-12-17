@@ -211,7 +211,7 @@ require 'vendor/autoload.php';
                 <div class="row">
                     <div class="col-12 text-center">
                         <img src="images/img.svg" alt="DP">
-                        <span class="mx-2" style="color: #fff;">Trusted by 500+ successful investors</span>
+                        <span class="mx-2 small-text-wrapper" style="color: #fff;">Trusted by 500+ successful investors</span>
                     </div>
                 </div>
             </div>
@@ -274,7 +274,7 @@ require 'vendor/autoload.php';
 
                         <div class="row g-0 align-items-center" style="position: static; z-index : 2;">
                             <div class="col-lg-9 col-md-8 order-2 order-md-1">
-                                <div class="card-body ">
+                                <div class="card-body  crypto-card-heading">
                                     <h3 class="card-title">Who is Crypto Joe? </h3>
                                     <p class="card-text" style="text-align:left">With over a decade of experience in the cryptocurrency industry,
                                         Crypto Joe is a trusted name among high net worth individuals in the UK, managing
@@ -542,7 +542,7 @@ require 'vendor/autoload.php';
         </section>
         <section class="container-fluid" id="faqs">
             <div class="container">
-                <h2 class="text-center" style="padding: 40px 0px; font-size: 36px; font-weight: 800px; color:#ffff;">Frequently Asked
+                <h2 class="text-center faq-heading" style="padding: 40px 0px; font-size: 36px; font-weight: 800px; color:#ffff;">Frequently Asked
                     Questions</h2>
                 <div class="accordions-list">
                     <div class="accordion" id="accordionExample">
