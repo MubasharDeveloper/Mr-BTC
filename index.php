@@ -19,6 +19,17 @@ require 'vendor/autoload.php';
     <link href="./crypto-css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./crypto-css/crypto.css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/vendor/aos/aos.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
     <style>
         /* Basic styling for the plans container */
@@ -118,26 +129,25 @@ require 'vendor/autoload.php';
 
                 <div class="offcanvas offcanvas-end custom-off" tabindex="-1" id="offcanvasRight"
                     aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header pt-5">
+                    <div class="offcanvas-header pt-3">
                         <a href="/"
                             class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none ">
-                            <img src="./images/cj-logo-sq.png" style="height: 75px; width: 75px; border-radius:50%;" />
+                            <img src="./images/cj-logo-sq.png" style="height: 75px !important; width: 75px !important; border-radius:50% !important;" />
                         </a>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <div class="row g-2">
                             <div class="col-6"><button class="btn off-login-btn w-100">Login</button></div>
-                            <div class="col-6"><a class="btn btn-primary w-100" href="#pricing">Join for Free</a></div>
+                            <div class="col-6"><a class="btn btn-primary w-100 text-white" href="#pricing">Join for Free</a></div>
                         </div>
                         <div class="row g-2">
-                            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-item d-block pt-2" style="text-align: left;">
-                                <li class="py-1"><a href="#" class="nav-link px-0 link-secondary list-items-header">Home</a></li>
-                                <li class="py-1"><a href="#about" class="nav-link px-0 link-dark list-items-header">About</a></li>
-                                <li class="py-1"><a href="#feature" class="nav-link px-0 link-dark list-items-header">Features</a></li>
-                                <li class="py-1"><a href="#pricing" class="nav-link px-0 link-dark list-items-header">Pricing</a></li>
-                                <li class="py-1"><a href="#faqs" class="nav-link px-0 link-dark list-items-header">FAQs</a></li>
+                            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-item d-block pt-2 w-100" style="text-align: left;">
+                                <li class="py-1"><a href="#" class="nav-link px-0 link-secondary list-items-header" data-bs-dismiss="offcanvas" aria-label="Close">Home</a></li>
+                                <li class="py-1"><a href="#about" class="nav-link px-0 link-dark list-items-header" data-bs-dismiss="offcanvas" aria-label="Close">About</a></li>
+                                <li class="py-1"><a href="#feature" class="nav-link px-0 link-dark list-items-header" data-bs-dismiss="offcanvas" aria-label="Close">Features</a></li>
+                                <li class="py-1"><a href="#pricing" class="nav-link px-0 link-dark list-items-header" data-bs-dismiss="offcanvas" aria-label="Close">Pricing</a></li>
+                                <li class="py-1"><a href="#faqs" class="nav-link px-0 link-dark list-items-header" data-bs-dismiss="offcanvas" aria-label="Close">FAQs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -146,8 +156,8 @@ require 'vendor/autoload.php';
         </header>
     </div>
 
-    <section id="home" style="padding: 200px  0px 0px;" class="bg-white">
-        <div class="banner-text">
+    <section id="home" style="padding: 160px  0px 0px;" class="bg-white">
+        <div class="banner-text"  data-aos="fade-right"  data-aos-delay="500">
             <div class="container">
                 <div class="w-100 h-100">
                     <div class="banner-content">
@@ -163,7 +173,7 @@ require 'vendor/autoload.php';
             </div>
         </div>
         <div class="banner-image-bg">
-            <div class="background-layer w-100 h-100" style="position: absolute; z-index : 1; left:0;"></div>
+            <div class="background-layer-banner w-100 h-100" style="position: absolute; z-index : 1; left:0;"></div>
         </div>
     </section>
 
@@ -204,10 +214,10 @@ require 'vendor/autoload.php';
         </div>
     </div>
 
-    <div class="main-container-wrapperr">
+    <div class="main-container-wrapper">
 
-        <section class="container-fluid" style="background-color: #787878; padding: 35px 0px;">
-            <div class="container">
+        <section class="container-fluid after-hero-div"  >
+            <div class="container" data-aos="fade-left" data-aos-delay="500">
                 <div class="row">
                     <div class="col-12 text-center">
                         <img src="images/img.svg" alt="DP">
@@ -220,24 +230,24 @@ require 'vendor/autoload.php';
         <section class="container-fluid" id="about" style="padding: 140px 0px;">
             <div class="container">
                 <div class="text-center pb-4">
-                    <h2 class="invest-heading"> Invest to Learn </h2>
+                    <h2 class="invest-heading"  data-aos="fade-up"> Invest to Learn </h2>
                 </div>
                 <div class="image-responsive">
-                    <img src="images/horizontal-line.svg" alt="horizontal-line" style="width: 100%;"
+                    <img src="images/horizontal-line.svg" alt="horizontal-line" style="width: 100%;"  data-aos="fade-left"
                         class="horizontal-line">
                     <div class="row pt-4">
                         <div class="col-md-4">
-                            <p class="invest-paragraph">
+                            <p class="invest-paragraph"  data-aos="fade-up">
                                 Our experts commit to quality market research across 1,000’s of crypto assets
                             </p>
                         </div>
                         <div class="col-md-4">
-                            <p class="invest-paragraph">
+                            <p class="invest-paragraph" data-aos="fade-up">
                                 We curate the trades were going to execute and quantify the level of risk
                             </p>
                         </div>
                         <div class="col-md-4">
-                            <p class="invest-paragraph">
+                            <p class="invest-paragraph" data-aos="fade-up">
                                 We share all the information you need to replicate our success
                             </p>
                         </div>
@@ -245,20 +255,20 @@ require 'vendor/autoload.php';
                 </div>
                 <div class="image-resposive2">
                     <div class="item">
-                        <img src="images/1.svg" alt="">
-                        <div class="vcontent">
+                        <img src="images/1.svg" alt=""  data-aos="fade-up">
+                        <div class="vcontent"  data-aos="fade-right">
                             Our experts commit to quality market research across 1,000’s of crypto assets
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/2.svg" alt="">
-                        <div class="vcontent">
+                        <img src="images/2.svg" alt="" data-aos="fade-up">
+                        <div class="vcontent"  data-aos="fade-right">
                             We curate the trades were going to execute and quantify the level of risk
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/3.svg" alt="">
-                        <div class="vcontent3">
+                        <img src="images/3.svg" alt="" data-aos="fade-up">
+                        <div class="vcontent3"  data-aos="fade-right">
                             We share all the information you need to replicate our success
                         </div>
                     </div>
@@ -274,7 +284,7 @@ require 'vendor/autoload.php';
 
                         <div class="row g-0 align-items-center" style="position: static; z-index : 2;">
                             <div class="col-lg-9 col-md-8 order-2 order-md-1">
-                                <div class="card-body  crypto-card-heading">
+                                <div class="card-body  crypto-card-heading"   data-aos="zoom-in-up">
                                     <h3 class="card-title">Who is Crypto Joe? </h3>
                                     <p class="card-text" style="text-align:left">With over a decade of experience in the cryptocurrency industry,
                                         Crypto Joe is a trusted name among high net worth individuals in the UK, managing
@@ -290,7 +300,7 @@ require 'vendor/autoload.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 order-1 order-md-2 text-center about-img">
+                            <div class="col-lg-3 col-md-4 order-1 order-md-2 text-center about-img"   data-aos="zoom-in-left">
                                 <img src="images/cj-logo-sq.png" class="img-fluid rounded-end" style="border-radius:50%;" alt="">
                             </div>
                         </div>
@@ -299,166 +309,203 @@ require 'vendor/autoload.php';
             </div>
         </section>
 
-        <section class="container-fluid" style="padding: 140px 0px;" id="feature">
+        <section class="container-fluid testimonials section" style="padding: 140px 0px;" id="feature">
             <div class="container">
                 <div class="text-center pb-4">
-                    <h2 class="meet-heading">Meet traders & investors like you</h2>
-                </div>
-                <div class="owl-carousel owl-theme" id="owl-carousel1">
-                    <div class="item">
-
-                        <div class="card border-0">
-                            <div class="background-layer w-100 h-100" style="position: absolute;top:0;z-index : 1;  left:0; border-radius: 6px;"></div>
-                            <div class="d-flex" style="position: static; z-index : 2;">
-                                <div class="left">
-                                    <img src="images/discordauthor.svg" width="100%" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="d-flex one-heading its-one">
-                                        <div class="">
-                                            <span style="color: #bb5cea; display: inline-block;">Kai Lowe 💎</span>
-                                        </div>
-                                        <div>
-                                            <span class="ps-1"
-                                                style="color: #ffff; display: inline-block; font-size: 11px;">01/03/2024
-                                                11:23 PM</span>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p class="trade-p">
-                                            Very grateful for the Crypto Joe community! The big thing for me is they are
-                                            actually transparent about risk levels on trades. this allowed me to grow at a
-                                            pace suited to me and not have extra stress about risky trades when just
-                                            beginning.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="card border-0">
-                            <div class="background-layer w-100 h-100" style="position: absolute; z-index : 1;  top:0; left:0; border-radius: 6px;"></div>
-
-                            <div class=" " style="position: static; z-index : 2;">
-                                <div class="left">
-                                    <img src="images/discordauthor.svg" width="100%" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="d-flex one-heading its-two">
-                                        <div class="">
-                                            <span style="color: #bb5cea; display: inline-block;">Ollie Jones 💎</span>
-                                        </div>
-                                        <div>
-                                            <span class="ps-1"
-                                                style="color: #ffff; display: inline-block; font-size: 11px;">01/03/2024
-                                                11:23 PM</span>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p class="trade-p">
-                                            I tried many platforms before but this si by far the most personal and helpful!
-                                            Crypto Joe make things simple and gave me confidence when investing. In the last
-                                            month I managed to quit the 9-5 I hate thanks to the service! Big love guys!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="card border-0">
-                            <div class="background-layer w-100 h-100" style="position: absolute;  top:0; z-index : 1; left:0; border-radius: 6px;"></div>
-                            <div class=" " style="position: static; z-index : 2;">
-                                <div class="left">
-                                    <img src="images/discordauthor.svg" width="100%" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="d-flex one-heading its-three">
-                                        <div class="">
-                                            <span style="color: #bb5cea; display: inline-block;">Jack Harrison 💎</span>
-                                        </div>
-                                        <div>
-                                            <span class="ps-1"
-                                                style="color: #ffff; display: inline-block; font-size: 11px;">01/03/2024
-                                                11:23 PM</span>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p class="trade-p">
-                                            Crypto Joe never lets me down. When starting I had 0 experience but hated I was
-                                            missing out on the Crypto opportunity. Crypto Joe not only got me quick results
-                                            but taught me the skills and knowledge to build real wealth.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="meet-heading mb-5"   data-aos="fade-bottom">Meet traders & investors like you</h2>
                 </div>
             </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="500">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            },
+                            "breakpoints": {
+                                "320": {
+                                    "slidesPerView": 1,
+                                    "spaceBetween": 40
+                                },
+                                "1200": {
+                                    "slidesPerView": 3,
+                                    "spaceBetween": 1
+                                }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper"   data-aos="zoom-out-up">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Very grateful for the Crypto Joe community! The big thing for me is they are
+                                    actually transparent about risk levels on trades. this allowed me to grow at a
+                                    pace suited to me and not have extra stress about risky trades when just
+                                    beginning.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>Kai Lowe</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    I tried many platforms before but this si by far the most personal and helpful!
+                                    Crypto Joe make things simple and gave me confidence when investing. In the last
+                                    month I managed to quit the 9-5 I hate thanks to the service! Big love guys!
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                    <h3>Ollie Jones</h3>
+                                    <h4>Designer</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Crypto Joe never lets me down. When starting I had 0 experience but hated I was
+                                    missing out on the Crypto opportunity. Crypto Joe not only got me quick results
+                                    but taught me the skills and knowledge to build real wealth.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                    <h3>Jack Harrison</h3>
+                                    <h4>Store Owner</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Very grateful for the Crypto Joe community! The big thing for me is they are
+                                    actually transparent about risk levels on trades. this allowed me to grow at a
+                                    pace suited to me and not have extra stress about risky trades when just
+                                    beginning.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>Kai Lowe</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    I tried many platforms before but this si by far the most personal and helpful!
+                                    Crypto Joe make things simple and gave me confidence when investing. In the last
+                                    month I managed to quit the 9-5 I hate thanks to the service! Big love guys!
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                    <h3>Ollie Jones</h3>
+                                    <h4>Designer</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Crypto Joe never lets me down. When starting I had 0 experience but hated I was
+                                    missing out on the Crypto opportunity. Crypto Joe not only got me quick results
+                                    but taught me the skills and knowledge to build real wealth.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                    <h3>Jack Harrison</h3>
+                                    <h4>Store Owner</h4>
+                                </div>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section>
     </div>
-    </section>
-
-
-    </div>
-
-
-
 
     <div class="main-container-wrapper">
 
-        <section class="container-fluid">
+        <section class="container-fluid services section">
             <div class="container" style="padding: 0px 10px 40px;">
-                <h2 class="explore-heading">Explore our other products</h2>
+                <h2 class="explore-heading mb-5" data-aos="fade-left">Explore our other products</h2>
                 <div class="row" style="padding-top: 50px;">
-                    <div class="owl-carousel owl-theme" id="owl-carousel2">
-                        <div class="item community">
-                            <div class="card c2">
-                                <div class="background-layer w-100 h-100" style="position: absolute;  top:0; z-index : 1; left:0; border-radius: 6px;"></div>
+                    <div class="container">
+                        <div class="row gy-4">
 
-                                <!-- <div class="text-center img" ><img src="images/community.svg" alt=""></div> -->
-                                <div class="card-body custom-card-body text-center" style="position: static; z-index : 2; padding-top: 30px;">
-                                    <h3 class="pt-3 display-6 one-heading"
-                                        style=" color: #ffff;   font-size: 30px; line-height: 42px; letter-spacing: -.72px;">
-                                        Result
-                                    </h3>
-                                    <p class="explore-p">By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
-                                    <a href="#" class="btn btn-card its-right-side">Learn More</a>
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                <div class="service-item item-cyan position-relative">
+                                    <i class="bi bi-activity icon"></i>
+                                    <h3>Result</h3>
+                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="item community">
-                            <div class="card c2">
-                                <div class="background-layer w-100 h-100" style="position: absolute;  top:0; z-index : 1; left:0; border-radius: 6px;"></div>
+                            </div><!-- End Service Item -->
 
-                                <!-- <div class="text-center img"><img src="images/premium-research.svg" alt=""></div> -->
-                                <div class="card-body custom-card-body text-center" style="position: static; z-index : 2; padding-top: 30px;">
-                                    <h3 class="pt-3 display-6 two-heading"
-                                        style="   color: #ffff;   font-size: 30px; line-height: 42px; letter-spacing: -.72px;">
-                                        Prmium
-                                        Research</h3>
-                                    <p class="explore-p">
-                                        we provide premium research to back our educational content, ensuring you have access to the most accurate, up-to-date insights to make informed and confident investment decisions.
-                                    </p>
-                                    <a href="#" class="btn btn-card its-right-side">Learn More</a>
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                                <div class="service-item item-red position-relative">
+                                    <i class="bi bi-bounding-box-circles icon"></i>
+                                    <h3>Premium Research</h3>
+                                    <p>we provide premium research to back our educational content, ensuring you have access to the most accurate, up-to-date insights to make informed and confident investment decisions.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="item community">
-                            <div class="card c2">
-                                <div class="background-layer w-100 h-100" style="position: absolute;  top:0; z-index : 1; left:0; border-radius: 6px;"></div>
+                            </div><!-- End Service Item -->
 
-
-                                <!-- <div class="text-center img"><img src="images/market-updates.svg" alt=""></div> -->
-                                <div class="card-body custom-card-body text-center" style="position: static; z-index : 2; padding-top: 30px;">
-                                    <h3 class="pt-3 display-6 three-heading"
-                                        style="    font-size: 30px; line-height: 42px; letter-spacing: -.72px; color: #ffff; ">
-                                        Education</h3>
-                                    <p class="explore-p">We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
-                                    <a href="#" class="btn btn-card its-right-side">Learn More</a>
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                                <div class="service-item item-indigo position-relative">
+                                    <i class="bi bi-calendar4-week icon"></i>
+                                    <h3>Education</h3>
+                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
-                            </div>
+                            </div><!-- End Service Item -->
+
                         </div>
                     </div>
                 </div>
@@ -466,6 +513,8 @@ require 'vendor/autoload.php';
                     you? Check out our <a href="#" style="color:#bb5cea !important;"><strong>products.</strong></a></div>
             </div>
         </section>
+
+
         <section class="container-fluid" style="padding: 140px 0;" id="pricing">
             <div class="container">
                 <h3 class="instant-heading text-center mb-4">Join the platform for Crypto Winners Today!</h3> <!-- Centered heading and margin-bottom added -->
@@ -546,7 +595,7 @@ require 'vendor/autoload.php';
                     Questions</h2>
                 <div class="accordions-list">
                     <div class="accordion" id="accordionExample">
-                        <div class="accordion-item border-none mb-2">
+                        <div class="accordion-item border-none mb-2" data-aos="fade-left"  data-aos-delay="200">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -562,7 +611,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2">
+                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="400">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -577,7 +626,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2">
+                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="600">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -593,7 +642,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2">
+                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="800">
                             <h2 class="accordion-header" id="headingfour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -615,7 +664,7 @@ require 'vendor/autoload.php';
             </div>
         </section>
         <section class="container-fluid" style="margin-top: 60px;">
-            <div class="container">
+            <div class="container"  data-aos="zoom-in-up"  data-aos-delay="200">
                 <div class="pre-footer">
                     <ul class="" style="list-style-type: none;">
                         <li>Education</li>
@@ -674,13 +723,6 @@ require 'vendor/autoload.php';
         </div>
     </footer>
 
-    <!-- <div class="banner-bg-wrapper-one">
-
-</div>
-<div class="banner-bg-wrapper-two">
-    
-</div> -->
-
 
 </body>
 
@@ -693,6 +735,10 @@ require 'vendor/autoload.php';
     crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- <script src="assets/vendor/aos/aos.js"></script> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
 <script>
     $('#owl-carousel1').owlCarousel({
         loop: true,
@@ -761,4 +807,7 @@ require 'vendor/autoload.php';
             }
         }
     })
+</script>
+<script>
+    AOS.init();
 </script>

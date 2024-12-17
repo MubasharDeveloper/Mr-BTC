@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-:root{
+:root {
     --primary-gradiant: linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52);
 }
 
@@ -598,7 +598,15 @@ button:focus {
     }
 
     .about-img img {
-        width: 50%;
+        max-width: 250px;
+        border-radius: 100% !important;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .offer-sub-button {
+        max-width: 225px;
+        width: 100%;
     }
 }
 
@@ -832,7 +840,6 @@ button:focus {
 
 
 
-
 .about-card {
     background-image: url(../images/card-no-1.png);
     background-position: center;
@@ -862,8 +869,6 @@ button:focus {
 }
 
 .banner-bg-wrapper-two {
-
-
     background-image: url(../images/banner-id.png);
     top: 19px;
     position: absolute;
@@ -875,21 +880,6 @@ button:focus {
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-
-
-
-
-    /* width: 1000px;
-            height: 1000px;
-           
-            .img-wrapper{
-                background-image: url(../images/banner-id.png);
-                background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            } */
 }
 
 body {
@@ -919,9 +909,10 @@ body {
 
 .banner-text .banner-content span {
     font-size: 18px;
+    color: #fff !important;
 }
 
-.banner-text .banner-content .btn-primary{
+.banner-text .banner-content .btn-primary {
     padding: 8px 24px;
     border-radius: 26px;
     width: fit-content !important;
@@ -935,13 +926,14 @@ body {
 }
 
 .banner-image-bg {
-    background-image: url(../images/bg-cover-div.jpeg);
+    background-image: url(../images/bg-cover-div.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 75vh;
+    height: fit-content;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .owl-item {
@@ -1043,104 +1035,147 @@ display: flex;
 
 
 
-@media (max-width: 1010px){
-    .sticky-nav{
-        & a{
-            & img{
-    width: 100px !important;
-    height: 50px !important;
-   
+@media (max-width: 1010px) {
+    .sticky-nav {
+        & a {
+            & img {
+                width: 100px !important;
+                height: 50px !important;
+
             }
         }
     }
-    .off-btn{
-        & img{
+
+    .off-btn {
+        & img {
             height: 35px;
-        width: 35px;
+            width: 35px;
         }
     }
-    .subscribe-btn{
+
+    .subscribe-btn {
         display: none;
     }
+
     .banner-text .banner-content h1 {
         font-size: 25px;
     }
+
     .banner-text .banner-content span {
-        font-size: 11px;
+        font-size: 12px;
     }
-    #home{
-        padding: 160px 0 0 !important;
+
+    #home {
+        padding: 115px 0 0 !important;
     }
+
     .banner-image-bg {
         min-height: calc(100vh - 394px);
         margin-top: 0 !important;
         position: relative;
     }
-    .small-text-wrapper{
+
+    .small-text-wrapper {
         display: block;
         padding-top: 15px;
     }
-    .crypto-card-heading{
-        & h3{
+
+    .crypto-card-heading {
+        & h3 {
             font-size: 22px;
         }
-        & p{
+
+        & p {
             font-size: 15px;
         }
     }
 }
-@media (max-width: 500px){
-    .meet-heading,    
-    .invest-heading,    
-    .explore-heading,    
-    .instant-heading,    
-    .faq-heading{
-font-size: 25px !important;
+
+@media (max-width: 500px) {
+
+    .meet-heading,
+    .invest-heading,
+    .explore-heading,
+    .instant-heading,
+    .faq-heading {
+        font-size: 25px !important;
     }
+
     .vcontent,
-    .vcontent3{
+    .vcontent3 {
         font-size: 15px;
-        
+
     }
-    .accordion-button{
+
+    .accordion-button {
         font-size: 14px;
     }
-    
-        .offer-card{
-            .content{
-                padding: 0px 10px 0px 0px !important; 
-            }
+
+    .offer-card {
+        .content {
+            padding: 0px 10px 0px 0px !important;
         }
-        .its-right-side{
-            display: flex;
-            justify-content: center;
-        }
-        .owl-item .community h3:before {
-            
-            height: 28px;
-            top: 29px;
-            
-        }
- .one-heading,
- .two-heading,
- .three-heading{
-    font-size: 22px !important;
- }
- .pre-footer {
-    padding: 30px 10px;
-    & ul{
-        padding-left: 0; 
-        list-style-type: none;
+    }
+
+    .its-right-side {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
-        & li{
-            padding: 10px 0 0 0 ;
-        }
-        & li:not(:nth-child(1)){
-padding-left: 10px;
+    }
+
+    .owl-item .community h3:before {
+
+        height: 28px;
+        top: 29px;
+
+    }
+
+    .one-heading,
+    .two-heading,
+    .three-heading {
+        font-size: 22px !important;
+    }
+
+    .pre-footer {
+        padding: 30px 10px;
+
+        & ul {
+            padding-left: 0;
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            & li {
+                padding: 10px 0 0 0;
+            }
+
+            & li:not(:nth-child(1)) {
+                padding-left: 10px;
+            }
         }
     }
 }
+
+@media(max-width: 1010px){
+    .list-items-header{
+        color: #000 !important;
+    }
+}
+
+#home{
+    background-color: #141414 !important;
+}
+
+.after-hero-div{
+    background-color: #000;
+    padding: 35px 0px;
+    margin-top: 50px;
+}
+
+@media(max-width: 1010px){
+    .after-hero-div{
+        background-color: #000;
+        padding: 22px 0px;
+    }
 }
