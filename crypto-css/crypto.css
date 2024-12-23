@@ -1179,3 +1179,17 @@ display: flex;
         padding: 22px 0px;
     }
 }
+.profile{
+    & img{
+        aspect-ratio: 1/1 !important;
+    }
+}
+.price{
+    .first-span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    & span{
+        font-weight: 600;
+    }
+}

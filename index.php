@@ -105,7 +105,7 @@ require 'vendor/autoload.php';
 
     <div class="container-fluid  sticky-nav">
         <header class="d-flex flex-wrap align-items-center justify-content-between py-2 container">
-            <a href="https://techtrack.online/basic.html"
+            <a href="#home"
                 class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none ">
                 <img src="./images/cj-logo.png" style="height: 100px; width: 200px;" />
             </a>
@@ -227,7 +227,7 @@ require 'vendor/autoload.php';
             </div>
         </section>
 
-        <section class="container-fluid" id="about" style="padding: 140px 0px;">
+        <!-- <section class="container-fluid" id="about" style="padding: 140px 0px;">
             <div class="container">
                 <div class="text-center pb-4">
                     <h2 class="invest-heading"  data-aos="fade-up"> Invest to Learn </h2>
@@ -273,6 +273,49 @@ require 'vendor/autoload.php';
                         </div>
                     </div>
                 </div>
+            </div>
+        </section> -->
+
+
+        <section class="container-fluid services section" style="padding-top: 6rem" id="about">
+            <div class="container" style="padding: 0px 10px 40px;">
+                <h2 class="explore-heading mb-5" data-aos="fade-left">Explore our other products</h2>
+                <div class="row" style="padding-top: 50px;">
+                    <div class="container">
+                        <div class="row gy-4">
+
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                <div class="service-item item-cyan position-relative">
+                                    <i class="bi bi-activity icon"></i>
+                                    <h3>Result</h3>
+                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div><!-- End Service Item -->
+
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                                <div class="service-item item-red position-relative">
+                                    <i class="bi bi-bounding-box-circles icon"></i>
+                                    <h3>Premium Research</h3>
+                                    <p>we provide premium research to back our educational content, ensuring you have access to the most accurate, up-to-date insights to make informed and confident investment decisions.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div><!-- End Service Item -->
+
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                                <div class="service-item item-indigo position-relative">
+                                    <i class="bi bi-calendar4-week icon"></i>
+                                    <h3>Education</h3>
+                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
+                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div><!-- End Service Item -->
+
+                        </div>
+                    </div>
+                </div>
+                <div style="font-size: 14px; margin-top: 80px; text-align: center; color: #fff !important;">Not sure on what product is right for
+                    you? Check out our <a href="#" style="color:#bb5cea !important;"><strong>products.</strong></a></div>
             </div>
         </section>
 
@@ -360,7 +403,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                                     <h3>Kai Lowe</h3>
-                                    <h4>Ceo &amp; Founder</h4>
+                                    <!-- <h4>Ceo &amp; Founder</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -379,7 +422,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                                     <h3>Ollie Jones</h3>
-                                    <h4>Designer</h4>
+                                    <!-- <h4>Designer</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -398,7 +441,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                     <h3>Jack Harrison</h3>
-                                    <h4>Store Owner</h4>
+                                    <!-- <h4>Store Owner</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -418,7 +461,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                                     <h3>Kai Lowe</h3>
-                                    <h4>Ceo &amp; Founder</h4>
+                                    <!-- <h4>Ceo &amp; Founder</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -437,7 +480,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                                     <h3>Ollie Jones</h3>
-                                    <h4>Designer</h4>
+                                    <!-- <h4>Designer</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -456,7 +499,7 @@ require 'vendor/autoload.php';
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                     <h3>Jack Harrison</h3>
-                                    <h4>Store Owner</h4>
+                                    <!-- <h4>Store Owner</h4> -->
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
@@ -472,48 +515,7 @@ require 'vendor/autoload.php';
 
     <div class="main-container-wrapper">
 
-        <section class="container-fluid services section">
-            <div class="container" style="padding: 0px 10px 40px;">
-                <h2 class="explore-heading mb-5" data-aos="fade-left">Explore our other products</h2>
-                <div class="row" style="padding-top: 50px;">
-                    <div class="container">
-                        <div class="row gy-4">
-
-                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                                <div class="service-item item-cyan position-relative">
-                                    <i class="bi bi-activity icon"></i>
-                                    <h3>Result</h3>
-                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
-                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div><!-- End Service Item -->
-
-                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                                <div class="service-item item-red position-relative">
-                                    <i class="bi bi-bounding-box-circles icon"></i>
-                                    <h3>Premium Research</h3>
-                                    <p>we provide premium research to back our educational content, ensuring you have access to the most accurate, up-to-date insights to make informed and confident investment decisions.</p>
-                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div><!-- End Service Item -->
-
-                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                                <div class="service-item item-indigo position-relative">
-                                    <i class="bi bi-calendar4-week icon"></i>
-                                    <h3>Education</h3>
-                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
-                                    <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div><!-- End Service Item -->
-
-                        </div>
-                    </div>
-                </div>
-                <div style="font-size: 14px; margin-top: 80px; text-align: center; color: #fff !important;">Not sure on what product is right for
-                    you? Check out our <a href="#" style="color:#bb5cea !important;"><strong>products.</strong></a></div>
-            </div>
-        </section>
-
+     
 
         <section class="container-fluid" style="padding: 140px 0;" id="pricing">
             <div class="container">
@@ -569,7 +571,7 @@ require 'vendor/autoload.php';
                                     <button type="button" class="btn btn-primary btn-sm">Monthly &#9733;</button>
                                 </div>
                                 <div class="price text-center">
-                                    <span style="font-size: 20px;">PREMIUM MEMBERS CLUB</span> <br>
+                                    <span class="first-span">PREMIUM MEMBERS CLUB</span> <br>
                                     <span>1 Month Free</span><br>
                                     <span>£24.99 /Month</span>
                                 </div>
