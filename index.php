@@ -15,7 +15,7 @@ require 'vendor/autoload.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Joe</title>
-    <link rel="shortcut icon" href="images/cj-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/cj-logo-sq.png" type="image/x-icon">
     <link href="./crypto-css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./crypto-css/crypto.css" />
@@ -287,7 +287,7 @@ require 'vendor/autoload.php';
                             <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                                 <div class="service-item item-cyan position-relative">
                                     <i class="bi bi-activity icon"></i>
-                                    <h3>Result</h3>
+                                    <h3>Results</h3>
                                     <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
@@ -328,10 +328,10 @@ require 'vendor/autoload.php';
                         <div class="row g-0 align-items-center" style="position: static; z-index : 2;">
                             <div class="col-lg-9 col-md-8 order-2 order-md-1">
                                 <div class="card-body  crypto-card-heading"   data-aos="zoom-in-up">
-                                    <h3 class="card-title">Who is Crypto Joe? </h3>
+                                    <h3 class="card-title">Who is <em>Crypto Joe?</em> </h3>
                                     <p class="card-text" style="text-align:left">With over a decade of experience in the cryptocurrency industry,
-                                        Crypto Joe is a trusted name among high net worth individuals in the UK, managing
-                                        portfolios exceeding £1 million. Crypto Joe excels in strategic trading and
+                                        <em>Crypto Joe</em> is a trusted name among high net worth individuals in the UK, managing
+                                        portfolios exceeding £1 million. <em>Crypto Joe</em> excels in strategic trading and
                                         delivering expert insights to enhance portfolio performance and increase net worth.
                                     </p>
                                     <p class="card-text" style="text-align:left">
@@ -344,7 +344,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 order-1 order-md-2 text-center about-img"   data-aos="zoom-in-left">
-                                <img src="images/cj-logo-sq.png" class="img-fluid rounded-end" style="border-radius:50%;" alt="">
+                                <img src="images/Joe .jpg" class="img-fluid rounded-end" style="border-radius:50%;" alt="">
                             </div>
                         </div>
                     </div>
@@ -395,14 +395,14 @@ require 'vendor/autoload.php';
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Very grateful for the Crypto Joe community! The big thing for me is they are
+                                    Very grateful for the <em>Crypto Joe</em> community! The big thing for me is they are
                                     actually transparent about risk levels on trades. this allowed me to grow at a
                                     pace suited to me and not have extra stress about risky trades when just
                                     beginning.
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                    <h3>Kai Lowe</h3>
+                                    <h3>William</h3>
                                     <!-- <h4>Ceo &amp; Founder</h4> -->
                                 </div>
                             </div>
@@ -416,12 +416,12 @@ require 'vendor/autoload.php';
                                 </div>
                                 <p>
                                     I tried many platforms before but this si by far the most personal and helpful!
-                                    Crypto Joe make things simple and gave me confidence when investing. In the last
+                                    <em>Crypto Joe</em> make things simple and gave me confidence when investing. In the last
                                     month I managed to quit the 9-5 I hate thanks to the service! Big love guys!
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                    <h3>Ollie Jones</h3>
+                                    <h3>Oliver</h3>
                                     <!-- <h4>Designer</h4> -->
                                 </div>
                             </div>
@@ -434,13 +434,13 @@ require 'vendor/autoload.php';
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Crypto Joe never lets me down. When starting I had 0 experience but hated I was
-                                    missing out on the Crypto opportunity. Crypto Joe not only got me quick results
+                                    <em>Crypto Joe</em> never lets me down. When starting I had 0 experience but hated I was
+                                    missing out on the Crypto opportunity. <em>Crypto Joe</em> not only got me quick results
                                     but taught me the skills and knowledge to build real wealth.
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                    <h3>Jack Harrison</h3>
+                                    <h3>James</h3>
                                     <!-- <h4>Store Owner</h4> -->
                                 </div>
                             </div>
@@ -453,14 +453,14 @@ require 'vendor/autoload.php';
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Very grateful for the Crypto Joe community! The big thing for me is they are
+                                    Very grateful for the <em>Crypto Joe</em> community! The big thing for me is they are
                                     actually transparent about risk levels on trades. this allowed me to grow at a
                                     pace suited to me and not have extra stress about risky trades when just
                                     beginning.
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                    <h3>Kai Lowe</h3>
+                                    <h3>William</h3>
                                     <!-- <h4>Ceo &amp; Founder</h4> -->
                                 </div>
                             </div>
@@ -474,12 +474,12 @@ require 'vendor/autoload.php';
                                 </div>
                                 <p>
                                     I tried many platforms before but this si by far the most personal and helpful!
-                                    Crypto Joe make things simple and gave me confidence when investing. In the last
+                                    <em>Crypto Joe</em> make things simple and gave me confidence when investing. In the last
                                     month I managed to quit the 9-5 I hate thanks to the service! Big love guys!
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                    <h3>Ollie Jones</h3>
+                                    <h3>Oliver</h3>
                                     <!-- <h4>Designer</h4> -->
                                 </div>
                             </div>
@@ -492,13 +492,13 @@ require 'vendor/autoload.php';
                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Crypto Joe never lets me down. When starting I had 0 experience but hated I was
-                                    missing out on the Crypto opportunity. Crypto Joe not only got me quick results
+                                    <em>Crypto Joe</em> never lets me down. When starting I had 0 experience but hated I was
+                                    missing out on the Crypto opportunity. <em>Crypto Joe</em> not only got me quick results
                                     but taught me the skills and knowledge to build real wealth.
                                 </p>
                                 <div class="profile mt-auto">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                    <h3>Jack Harrison</h3>
+                                    <h3>James</h3>
                                     <!-- <h4>Store Owner</h4> -->
                                 </div>
                             </div>
@@ -601,14 +601,14 @@ require 'vendor/autoload.php';
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is Crypto Joe?
+                                    What is <em>Crypto Joe?</em>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     The world of Crypto has many opportunities however is a complicated industry for
-                                    beginners. Crypto Joe offers essential support to capitalise on these opportunities
+                                    beginners. <em>Crypto Joe</em> offers essential support to capitalise on these opportunities
                                     without been an expert.
                                 </div>
                             </div>
@@ -638,7 +638,7 @@ require 'vendor/autoload.php';
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Crypto Joe is backed by traders trusted by high net worth individuals in the UK to manage
+                                    <em>Crypto Joe</em> is backed by traders trusted by high net worth individuals in the UK to manage
                                     their Crypto trades. Managing portfolios worth multi millions, our experts have proven
                                     skin in the game.
                                 </div>
@@ -648,7 +648,7 @@ require 'vendor/autoload.php';
                             <h2 class="accordion-header" id="headingfour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                    Is Crypto Joe suitable for beginners?
+                                    Is <em>Crypto Joe</em> suitable for beginners?
                                 </button>
                             </h2>
                             <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
