@@ -336,7 +336,7 @@ body {
     color: rgb(30, 36, 48);
     font-family: Inter;
     padding-top: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .offer-sub-button {
@@ -1193,4 +1193,14 @@ display: flex;
     & span{
         font-weight: 600;
     }
+}
+
+#pricing, #feature{
+    padding: 140px 0;
+}
+
+@media(max-width: 768px){
+    #pricing, #feature{
+        padding: 80px 0 30px;
+    }   
 }

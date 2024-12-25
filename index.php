@@ -139,7 +139,7 @@ require 'vendor/autoload.php';
                     <div class="offcanvas-body">
                         <div class="row g-2">
                             <div class="col-6"><button class="btn off-login-btn w-100">Login</button></div>
-                            <div class="col-6"><a class="btn btn-primary w-100 text-white" href="#pricing">Join for Free</a></div>
+                            <div class="col-6"><a class="btn btn-primary w-100 text-white" data-bs-dismiss="offcanvas" aria-label="Close" href="#pricing">Join for Free</a></div>
                         </div>
                         <div class="row g-2">
                             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-item d-block pt-2 w-100" style="text-align: left;">
@@ -157,7 +157,7 @@ require 'vendor/autoload.php';
     </div>
 
     <section id="home" style="padding: 160px  0px 0px;" class="bg-white">
-        <div class="banner-text"  data-aos="fade-right"  data-aos-delay="500">
+        <div class="banner-text" data-aos="fade-right" data-aos-delay="500">
             <div class="container">
                 <div class="w-100 h-100">
                     <div class="banner-content">
@@ -216,7 +216,7 @@ require 'vendor/autoload.php';
 
     <div class="main-container-wrapper">
 
-        <section class="container-fluid after-hero-div"  >
+        <section class="container-fluid after-hero-div">
             <div class="container" data-aos="fade-left" data-aos-delay="500">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -279,16 +279,16 @@ require 'vendor/autoload.php';
 
         <section class="container-fluid services section" style="padding-top: 6rem" id="about">
             <div class="container" style="padding: 0px 10px 40px;">
-                <h2 class="explore-heading mb-5" data-aos="fade-left">Explore our other products</h2>
+                <h2 class="explore-heading mb-4" data-aos="fade-left">How it works</h2>
                 <div class="row" style="padding-top: 50px;">
                     <div class="container">
                         <div class="row gy-4">
 
-                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                                <div class="service-item item-cyan position-relative">
-                                    <i class="bi bi-activity icon"></i>
-                                    <h3>Results</h3>
-                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                                <div class="service-item item-indigo position-relative">
+                                    <i class="bi bi-calendar4-week icon"></i>
+                                    <h3>Education</h3>
+                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End Service Item -->
@@ -302,14 +302,16 @@ require 'vendor/autoload.php';
                                 </div>
                             </div><!-- End Service Item -->
 
-                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                                <div class="service-item item-indigo position-relative">
-                                    <i class="bi bi-calendar4-week icon"></i>
-                                    <h3>Education</h3>
-                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
+                            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                <div class="service-item item-cyan position-relative">
+                                    <i class="bi bi-activity icon"></i>
+                                    <h3>Results</h3>
+                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End Service Item -->
+
+
 
                         </div>
                     </div>
@@ -327,7 +329,7 @@ require 'vendor/autoload.php';
 
                         <div class="row g-0 align-items-center" style="position: static; z-index : 2;">
                             <div class="col-lg-9 col-md-8 order-2 order-md-1">
-                                <div class="card-body  crypto-card-heading"   data-aos="zoom-in-up">
+                                <div class="card-body  crypto-card-heading" data-aos="zoom-in-up">
                                     <h3 class="card-title">Who is <em>Crypto Joe?</em> </h3>
                                     <p class="card-text" style="text-align:left">With over a decade of experience in the cryptocurrency industry,
                                         <em>Crypto Joe</em> is a trusted name among high net worth individuals in the UK, managing
@@ -343,7 +345,7 @@ require 'vendor/autoload.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 order-1 order-md-2 text-center about-img"   data-aos="zoom-in-left">
+                            <div class="col-lg-3 col-md-4 order-1 order-md-2 text-center about-img" data-aos="zoom-in-left">
                                 <img src="images/Joe .jpg" class="img-fluid rounded-end" style="border-radius:50%;" alt="">
                             </div>
                         </div>
@@ -352,10 +354,10 @@ require 'vendor/autoload.php';
             </div>
         </section>
 
-        <section class="container-fluid testimonials section" style="padding: 140px 0px;" id="feature">
+        <section class="container-fluid testimonials section" style="" id="feature">
             <div class="container">
                 <div class="text-center pb-4">
-                    <h2 class="meet-heading mb-5"   data-aos="fade-bottom">Meet traders & investors like you</h2>
+                    <h2 class="meet-heading mb-3" data-aos="fade-bottom">Meet traders & investors like you</h2>
                 </div>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="500">
@@ -386,7 +388,7 @@ require 'vendor/autoload.php';
                             }
                         }
                     </script>
-                    <div class="swiper-wrapper"   data-aos="zoom-out-up">
+                    <div class="swiper-wrapper" data-aos="zoom-out-up">
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
@@ -515,9 +517,9 @@ require 'vendor/autoload.php';
 
     <div class="main-container-wrapper">
 
-     
 
-        <section class="container-fluid" style="padding: 140px 0;" id="pricing">
+
+        <section class="container-fluid" id="pricing">
             <div class="container">
                 <h3 class="instant-heading text-center mb-4">Join the platform for Crypto Winners Today!</h3> <!-- Centered heading and margin-bottom added -->
 
@@ -597,7 +599,7 @@ require 'vendor/autoload.php';
                     Questions</h2>
                 <div class="accordions-list">
                     <div class="accordion" id="accordionExample">
-                        <div class="accordion-item border-none mb-2" data-aos="fade-left"  data-aos-delay="200">
+                        <div class="accordion-item border-none mb-2" data-aos="fade-left" data-aos-delay="200">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -613,7 +615,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="400">
+                        <div class="accordion-item mb-2" data-aos="fade-left" data-aos-delay="400">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -628,7 +630,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="600">
+                        <div class="accordion-item mb-2" data-aos="fade-left" data-aos-delay="600">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -644,7 +646,7 @@ require 'vendor/autoload.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2" data-aos="fade-left"  data-aos-delay="800">
+                        <div class="accordion-item mb-2" data-aos="fade-left" data-aos-delay="800">
                             <h2 class="accordion-header" id="headingfour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -666,7 +668,7 @@ require 'vendor/autoload.php';
             </div>
         </section>
         <section class="container-fluid" style="margin-top: 60px;">
-            <div class="container"  data-aos="zoom-in-up"  data-aos-delay="200">
+            <div class="container" data-aos="zoom-in-up" data-aos-delay="200">
                 <div class="pre-footer">
                     <ul class="" style="list-style-type: none;">
                         <li>Education</li>
