@@ -46,6 +46,19 @@ require 'vendor/autoload.php';
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 
         }
+        @media(max-width:1399px){ 
+            .disclaimer-box {
+                border-radius:10px;
+                background-color:#26231C;
+                display:flex;
+                width:90%;
+                margin-left:2rem;
+                padding:20px 25px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+                margin-bottom:10px;
+
+            }
+        }
         /* Basic styling for the plans container */
         .plans-container {
             display: flex;
@@ -580,7 +593,7 @@ require 'vendor/autoload.php';
                     <div class="col-12 mb-4">
                         <div class="card offer-card">
                             <div class="offer text-center">
-                                <strong style="font-size: 16px;">£24.99</strong><br><small style="font-size: 10px !important;">Per Month</small>
+                                <strong style="font-size: 16px;">£49.99</strong><br><small style="font-size: 10px !important;">Per Month</small>
                             </div>
                             <div class="content" style="padding: 30px 24px 24px;">
                                 <div class="time text-center">
@@ -589,7 +602,7 @@ require 'vendor/autoload.php';
                                 <div class="price text-center">
                                     <span class="first-span">PREMIUM MEMBERS CLUB</span> <br>
                                     <span>1 Month Free</span><br>
-                                    <span>£24.99 /Month</span>
+                                    <span>£49.99 /Month</span>
                                 </div>
                                 <hr>
                                 <div class="list">
