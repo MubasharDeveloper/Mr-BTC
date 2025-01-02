@@ -32,6 +32,19 @@ require 'vendor/autoload.php';
     <link href="assets/css/main.css" rel="stylesheet">
 
     <style>
+        
+        .offer-sub-button {
+            position: absolute;
+            left:28%;
+            bottom:-6%;
+        }
+        @media(max-width:767px){
+            .offer-sub-button {
+                position: absolute;
+                left:20%;
+                bottom:-4%;
+            }
+         }
         /* Basic styling for the plans container */
         .plans-container {
             display: flex;
@@ -288,7 +301,7 @@ require 'vendor/autoload.php';
                                 <div class="service-item item-indigo position-relative">
                                     <i class="bi bi-calendar4-week icon"></i>
                                     <h3>Education</h3>
-                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your investment journey.</p>
+                                    <p>We take our premium research and transform it into bite-sized, actionable education videos and guides, making complex crypto concepts easy to understand and empowering you to take confident steps in your  journey.</p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End Service Item -->
@@ -297,7 +310,7 @@ require 'vendor/autoload.php';
                                 <div class="service-item item-red position-relative">
                                     <i class="bi bi-bounding-box-circles icon"></i>
                                     <h3>Premium Research</h3>
-                                    <p>we provide premium research to back our educational content, ensuring you have access to the most accurate, up-to-date insights to make informed and confident investment decisions.</p>
+                                    <p>We provide premium research to back our educational content, ensuring you have access to the accurate, up-to-date insights in the market.</p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End Service Item -->
@@ -306,7 +319,7 @@ require 'vendor/autoload.php';
                                 <div class="service-item item-cyan position-relative">
                                     <i class="bi bi-activity icon"></i>
                                     <h3>Results</h3>
-                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success in crypto investing.</p>
+                                    <p>By using CryptoJoe's education, you'll not only gain the knowledge you need but also develop the skills to apply it confidently in the real world, allowing you to transfer what you’ve learned into actionable strategies for long-term success </p>
                                     <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End Service Item -->
