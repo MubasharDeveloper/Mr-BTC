@@ -32,19 +32,20 @@ require 'vendor/autoload.php';
     <link href="assets/css/main.css" rel="stylesheet">
 
     <style>
-        
-        .offer-sub-button {
-            position: absolute;
-            left:28%;
-            bottom:-6%;
+        .disclaimer-text {
+            color:#EFB912;
+            line-height:25px;
         }
-        @media(max-width:767px){
-            .offer-sub-button {
-                position: absolute;
-                left:20%;
-                bottom:-4%;
-            }
-         }
+        .disclaimer-box {
+            border-radius:10px;
+            background-color:#26231C;
+            display:flex;
+            width:92%;
+            margin-left:2rem;
+            padding:20px 25px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+
+        }
         /* Basic styling for the plans container */
         .plans-container {
             display: flex;
@@ -600,6 +601,25 @@ require 'vendor/autoload.php';
                                     </ul>
                                 </div>
                                 <button class="btn btn-primary offer-sub-button" onclick="subscribe_free_trial()">Subscribe</button>
+                                <div class="disclaimer-box">
+                                    <div style="margin-top:4px;">
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16" role="img" aria-label="Error Icon">
+                                        <!-- Background Circle -->
+                                        <circle cx="8" cy="8" r="8" fill="#EFB912" />
+                                        <!-- Exclamation Mark -->
+                                        <path d="M7.001 4.5a.5.5 0 0 1 1 0v4a.5.5 0 0 1-1 0v-4zm.5 6a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" fill="black"/>
+                                        </svg>
+
+                                    </div>
+                                    <div style="margin-left:10px;">
+                                        <span class="disclaimer-text">
+                                            Don't invest unless you're prepared to lose all the money you invest.This is a high-risk investment and you are
+                                            unlikely to be protected if something goes wrong.<a href="#" style="color:#EFB912;margin-left:5px;">Take 2 mints to learn more</a> 
+                                        </span>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
